@@ -1,0 +1,52 @@
+@import url("https://use.typekit.net/jmk3xov.css");
+
+h1, h2, h3, blockquote {
+    font-family: elevon, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+:root {
+  --dark-bg: rgba(15, 15, 15, 0.95);
+  --spacing: 350px;
+
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body{
+    width:800px;
+    margin:0 auto;
+  }
+  
+  #videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  video{
+    width:100%;
+    border:2px solid greenyellow;
+    background-color: rgb(63,62,62);
+  }
+  
+  textarea{
+    height: 50px;
+    width: 100%;
+  }
+  
+  @media screen and (max-width:800px) {
+    body{
+        width:100%;
+    }
+  }
+
+body{
+  background: rgb(237,67,10);
+background: linear-gradient(90deg, rgba(237,67,10,1) 0%, rgba(0,0,0,1) 100%);
+}
